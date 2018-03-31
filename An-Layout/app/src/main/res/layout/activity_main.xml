@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="in.co.theceo.an_layout.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/DEFAULT_ANIMATION"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DEFAULT_ANIMATION" />
+
+            <Button
+                android:id="@+id/FROM_LEFT_TO_LEFT_ANIMATION"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FROM_LEFT_TO_LEFT_ANIMATION" />
+
+            <Button
+                android:id="@+id/FROM_RIGHT_TO_RIGHT_ANIMATION"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FROM_RIGHT_TO_RIGHT_ANIMATION" />
+
+            <Button
+                android:id="@+id/ROTATION_IN_ANIMATION"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ROTATION_IN_ANIMATION" />
+
+            <Button
+                android:id="@+id/ROTATION_IN_OUT_ANIMATION"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ROTATION_IN_OUT_ANIMATION" />
+
+            <Button
+                android:id="@+id/FADE_IN_ANIMATION"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FADE_IN_ANIMATION" />
+
+            <Button
+                android:id="@+id/FADE_IN_OUT_ANIMATION"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FADE_IN_OUT_ANIMATION" />
+
+            <Button
+                android:id="@+id/ENTER_EXIT_ANIMATION"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ENTER_EXIT_ANIMATION" />
+
+            <Button
+                android:id="@+id/ENTER_ANIMATION"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ENTER_ANIMATION" />
+
+            <Button
+                android:id="@+id/UP_ANIMATION"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="UP_ANIMATION" />
+
+            <Button
+                android:id="@+id/UP_DOWN_ANIMATION"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="UP_DOWN_ANIMATION" />
+
+            <Button
+                android:id="@+id/FROM_TOP_ANIMATION"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FROM_TOP_ANIMATION" />
+
+            <Button
+                android:id="@+id/FROM_TOP_TO_TOP_ANIMATION"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FROM_TOP_TO_TOP_ANIMATION" />
+
+            <Button
+                android:id="@+id/FROM_TOP_TO_BOTTOM_ANIMATION"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FROM_TOP_TO_BOTTOM_ANIMATION" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

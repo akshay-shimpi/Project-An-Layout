@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DialogTheme_FLTL">
+        <item name="android:windowEnterAnimation">@anim/enter</item>
+        <item name="android:windowExitAnimation">@anim/to_slide_left</item>
+    </style>
+
+    <style name="DialogTheme_FRTR">
+        <item name="android:windowEnterAnimation">@anim/slide_left</item>
+        <item name="android:windowExitAnimation">@anim/slide_right</item>
+    </style>
+
+    <style name="DialogTheme_ROTATION_IN">
+        <item name="android:windowEnterAnimation">@anim/enter_roatation</item>
+    </style>
+
+    <style name="DialogTheme_ROTATION_IN_OUT">
+        <item name="android:windowEnterAnimation">@anim/enter_roatation</item>
+        <item name="android:windowExitAnimation">@anim/exit_roatation</item>
+    </style>
+
+    <style name="DialogTheme_FAIND_IN">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+    </style>
+
+    <style name="DialogTheme_FAIND_IN_OUT">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+    <style name="DialogTheme_ENTER">
+        <item name="android:windowEnterAnimation">@anim/enter</item>
+    </style>
+
+
+    <style name="DialogTheme_ENTER_EXIT">
+        <item name="android:windowEnterAnimation">@anim/enter</item>
+        <item name="android:windowExitAnimation">@anim/exit</item>
+    </style>
+
+    <style name="DialogTheme_UP">
+        <item name="android:windowEnterAnimation">@anim/up</item>
+    </style>
+
+    <style name="DialogTheme_UP_DOWN">
+        <item name="android:windowEnterAnimation">@anim/up</item>
+        <item name="android:windowExitAnimation">@anim/down</item>
+    </style>
+
+    <style name="DialogTheme_TOP_MIDDLE">
+        <item name="android:windowEnterAnimation">@anim/top</item>
+        <!--<item name="android:windowExitAnimation">@anim/down</item>-->
+    </style>
+
+    <style name="DialogTheme_FROM_TOP_TO_TOP">
+        <item name="android:windowEnterAnimation">@anim/top</item>
+        <item name="android:windowExitAnimation">@anim/to_top</item>
+    </style>
+
+    <style name="DialogTheme_FROM_TOP_TO_BOTTOM">
+        <item name="android:windowEnterAnimation">@anim/top</item>
+        <item name="android:windowExitAnimation">@anim/down</item>
+    </style>
+
+</resources>
